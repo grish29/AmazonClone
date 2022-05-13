@@ -6,7 +6,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
 
 	const removeFromBasket = () => {
 		//remove the item from basket
-		dispatchEvent({
+		dispatch({
 			type: "REMOVE_FROM_BASKET",
 			id: id,
 		});

@@ -36,6 +36,7 @@ function Checkout() {
 						rating={5}
 					/>
 	*/}
+
 					{basket.map((item) => (
 						<CheckoutProduct
 							id={item.id}
